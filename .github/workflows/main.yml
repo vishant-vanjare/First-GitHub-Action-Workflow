@@ -1,0 +1,13 @@
+name: Vishant Vanjare
+
+on: 
+ push:
+  branches: [ main ]
+
+jobs:
+   demo:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Greeting
+       run: echo "Hello Team"
